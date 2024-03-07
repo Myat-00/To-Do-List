@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    /* background: linear-gradient(135deg, #cf9aff,#95c0ff); */
+}
+.welcome,
+.home,
+.suTask,
+.edit,
+.login,
+.register {
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background: rgb(241, 241, 241);
+}
+/* .card,.data{
+    background: linear-gradient(135deg, #cf9aff,#95c0ff);
+} */
+/* .card label{
+    color: #fff;
+    font-weight: 300;
+} */
+table {
+    font-size: 16px;
+}
+/* table thead tbody{
+    background: linear-gradient(135deg, #cf9aff,#95c0ff);
+    padding: 8px 13px;
+    color: #fff;
+    border-radius: 10px;
+} */
+.mytable > tbody > tr > td,
+.mytable > tbody > tr > th,
+.mytable > tfoot > tr > td,
+.mytable > tfoot > tr > th,
+.mytable > thead > tr > td,
+.mytable > thead > tr > th {
+    padding: 12px;
+}
+/* .divider {
+    border-top: 1px solid #eaecf4;
+    margin: 0 1rem 1rem;
+    color: black;
+    width:3px;
+  } */
+/* .sidebar hr.sidebar-divider {
+    margin: 0 1rem 1rem;
+  } */
+/* button,.showData span{
+    background: linear-gradient(135deg, #4b3530,#c78ffc);
+    color: #333;
+} */
+.dropdown-menu{
+    background: rgb(241, 241, 241);
+    border:none;
+}
+/* @media (max-width: 700px) {
+    .login .col-6 {
+        width: 80%;
+        margin: auto;
+    }
+} */
